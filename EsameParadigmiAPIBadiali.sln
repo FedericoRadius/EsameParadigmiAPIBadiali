@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsameParadigmiAPIBadiali", "EsameParadigmiAPIBadiali\EsameParadigmiAPIBadiali.csproj", "{35DB7250-E922-4844-8BD8-506313D621C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35DB7250-E922-4844-8BD8-506313D621C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DB7250-E922-4844-8BD8-506313D621C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DB7250-E922-4844-8BD8-506313D621C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DB7250-E922-4844-8BD8-506313D621C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB910760-40A5-47CF-8640-A491A6D49218}
+	EndGlobalSection
+EndGlobal
