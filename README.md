@@ -3,3 +3,5 @@ Poi bisogna creare un utente, il controller degli utenti non richiede l'autentic
 tramite username e password si richiede un token di accesso al controller dei token
 si mette il token nell'autorizzazione con bearer che lo precede
 ora si possono usare anche gli altri due controller, quello dei libri e delle etichette
+
+La Ricerca Libro è case sensitive
