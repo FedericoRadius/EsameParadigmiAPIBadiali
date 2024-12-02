@@ -21,7 +21,12 @@ namespace EsameParadigmiAPIBadiali.Web.Controllers
         [Route("CreaToken")]
         public IActionResult CreaToken(string username, string password) 
         {
-            string token = _tokenService.CreaToken(username, password);
+            string token = "";
+            try
+            {
+                token = _tokenService.CreaToken(username, password);
+            }
+            catch (Exception ex) { return BadRequest(ResponseFactory.WithError(ex)); }
             return Ok(ResponseFactory.WithSuccess(token));  
 
 

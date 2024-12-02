@@ -47,7 +47,7 @@ namespace EsameParadigmiAPIBadiali.Web.Controllers
             utenteDTO.Nome = utente.Nome;
             utenteDTO.Cognome = utente.Cognome;
             utenteDTO.Email = utente.Email;
-            utente.Password = utente.Password;
+            utenteDTO.Password = utente.Password;
 
             return Ok(ResponseFactory.WithSuccess(utenteDTO));
         }

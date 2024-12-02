@@ -24,6 +24,7 @@ namespace EsameParadigmiAPIBadiali.Applicazione.Servizi
             utente.Password = password;
 
             _UtenteRepository.Aggiunta(utente);
+            _UtenteRepository.Save();
         }
 
         public Utente getUtente(int idUtente)

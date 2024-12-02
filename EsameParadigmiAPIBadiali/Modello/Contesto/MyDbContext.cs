@@ -13,7 +13,7 @@ namespace EsameParadigmiAPIBadiali.Modello.Contesto
     public class MyDbContext : DbContext
     {
 
-        public DbSet<Libro> Libri { get; set; }
+        public DbSet<Libro> Libri { get; set; } 
         public DbSet<Utente> Utenti { get; set; }
         public DbSet<Categoria> Categorie { get; set; }
         public DbSet<LibroCategoria> CategorieLibro { get; set; } 

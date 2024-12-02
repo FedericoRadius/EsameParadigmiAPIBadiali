@@ -28,7 +28,7 @@ namespace EsameParadigmiAPIBadiali.Applicazione.Servizi
         {
             var utente = _utenteRepository.Autenticazione(username, password);
             if (utente == null)
-                throw new Exception("Nessun utente con questa combinazione di usrname e password.");
+                throw new Exception("Nessun utente con questa combinazione di username e password.");
 
             List<Claim> claims = new List<Claim>();
             claims.Add(new Claim("id_utente", utente.IdUtente.ToString()));
